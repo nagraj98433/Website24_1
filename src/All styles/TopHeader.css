@@ -1,0 +1,121 @@
+/* For Medium 400*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* For Medium 500*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/* For Bold 700*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+/* For Extra Bold 800*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+
+/* For Regular 400* Bebas Neue */
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  height: 1000px;
+  /* background-color: #feab0c !important; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.NavMenu_container {
+  margin: 0 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  /* max-width: 80%; */
+  margin: 0 auto 0 auto;
+  font-size: 1.6rem !important;
+}
+.container-fluid {
+  max-width: 80%;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.navbar-nav a:nth-child(1) {
+  margin-right: 2.4rem !important;
+}
+.navbar-nav a:nth-child(2) {
+  margin-right: 2.4rem !important;
+}
+.navbar-nav a:nth-child(3) {
+  margin-right: 2.4rem !important;
+}
+.navbar-nav a:nth-child(4) {
+  margin-right: 2.4rem !important;
+}
+.navbar-nav a:nth-child(5) {
+  margin-right: 2.4rem !important;
+}
+.navbar-nav a:nth-child(6) {
+  margin-right: 2.4rem !important;
+}
+
+.container-fluid {
+  padding: 0.6rem 0.7rem !important;
+}
+.bgRounded {
+  background-color: #1d2150;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.6rem;
+  font-size: smaller;
+}
+a.active:not(:last-child) {
+  color: #feab0c !important;
+  border-bottom: 0.2rem solid black;
+}
+.nav-link {
+  padding-bottom: 0px !important;
+  color: #1d2150 !important;
+}
+.HeaderLeft_content {
+  color: #feab0c;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3vw;
+  font-weight: 400;
+}
+.HeaderLeft_content_1 {
+  color: #1d2150;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3vw;
+  font-weight: 400;
+}
+
+/* Media Queries start */
+@media screen and (min-width: 300px) and (max-width: 576px) {
+.NavMenu_container{
+  border-bottom: 2px solid #1d2150;
+}
+a.active:not(:last-child){
+  border: none !important;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 540px) {
+  .HeaderLeft_content, .HeaderLeft_content_1{
+    font-size: 6vw;
+  } 
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .PadLeft{
+    padding-left: 9rem !important;
+  }
+}
+
+
+
+
+
+/* Media Queries end */
+
+/* .BottomShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */

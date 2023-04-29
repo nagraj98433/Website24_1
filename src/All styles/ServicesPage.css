@@ -1,0 +1,11 @@
+.Services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 3rem;
+  font-family: "poppins", sans-serif;
+  background-color: violet;
+  color: #1e6056;
+  font-weight: 700;
+}

@@ -1,0 +1,5 @@
+.BG_IMG{
+    background-image: url('./assets/Images/Bg_img.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
