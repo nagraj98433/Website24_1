@@ -179,10 +179,4 @@ html {
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 639px) {
-  .Btn_icons_Flex_container {
-    display: none;
-  }
-}
-
 /* media Queries end*/
