@@ -159,7 +159,9 @@ function HireNow() {
               <div className="row">
                 <div className="col-12 ps-3">
                   <div className="profile_Cards_Container">
-
+                    <div className="mb-4 ps-4">
+                      Showing 4 of 156 employer
+                    </div>
                     <div className="card CardStyle_Hire mb-4">
                       <div className='Flex_container'>
                         <div className='Img_container1'>
@@ -212,7 +214,7 @@ function HireNow() {
 
                             </div>
                           </div>
-                          <div className="Condition_container text-start mt-2">
+                          <div className="Condition_container text-start mt-2 f_size">
                             <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur officia reprehenderit vero asperiores maxime. Molestiae suscipit assumenda debitis modi?</div>
                           </div>
 
@@ -284,7 +286,7 @@ function HireNow() {
 
                             </div>
                           </div>
-                          <div className="Condition_container text-start mt-2">
+                          <div className="Condition_container text-start mt-2 f_size">
                             <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur officia reprehenderit vero asperiores maxime. Molestiae suscipit assumenda debitis modi?</div>
                           </div>
 
@@ -356,7 +358,7 @@ function HireNow() {
 
                             </div>
                           </div>
-                          <div className="Condition_container text-start mt-2">
+                          <div className="Condition_container text-start mt-2 f_size">
                             <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur officia reprehenderit vero asperiores maxime. Molestiae suscipit assumenda debitis modi?</div>
                           </div>
 
@@ -377,7 +379,77 @@ function HireNow() {
 
 
 
+                    {/* Forth Card */}
+                    <div className="card CardStyle_Hire mb-4">
+                      <div className='Flex_container'>
+                        <div className='Img_container1'>
+                          <img src={Profile_pic_1} className="card-img-top" alt="..." />
+                        </div>
+                        <div className="card-body p-0" style={{ maxWidth: '540px' }}>
+                          <div className="d-flex justify-content-between">
+                            <div className="d-flex justify-content-between">
+                              <div className="card-title_hire pe-4">ADAM THORAT</div>
+                              <button type="button" class="btn btn-primary EdlerCareBtn">Elder Care</button>
+                            </div>
+                            <div>
+                              <div className='Btn_icons_Flex_container'>
+                                <NavLink exact to="" className="nav-link">
+                                  <a href="#" className="btn btn-primary CardBtn_style_hire">HIRE NOW</a>
+                                </NavLink>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="Rating_icons text-start mt-2">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                          {/* for mobile start */}
+                          <div className="rating_btn_container d-flex justify-content-evenly">
+                            <div className="Hiding_mobile">
+                              <button type="button" class="btn btn-primary EdlerCareBtn1">Elder Care</button>
+                            </div>
+                            <div className="Rating_icons1 text-start Hiding_mobile">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </div>
+                          </div>
+                          {/* for mobile end */}
 
+                          <div className="Location_rate_container mt-2">
+                            <div>
+                              <span className="pe-2 text-warning"><i class="fas fa-map-marker-alt"></i></span>
+                              <span className="text-warning me-4 Marging_right">Mumbai </span>
+                            </div>
+                            <div>
+                              24hr - <span><i class="fas fa-rupee-sign"></i></span><span>1400, </span>
+                              12hr - <span><i class="fas fa-rupee-sign"></i></span><span>1000</span>
+
+                            </div>
+                          </div>
+                          <div className="Condition_container text-start mt-2 f_size">
+                            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur officia reprehenderit vero asperiores maxime. Molestiae suscipit assumenda debitis modi?</div>
+                          </div>
+
+                          {/* for mobile start */}
+                          <div>
+                            <div className='Btn_icons_Flex_container_Hire1 mt-3'>
+                              <NavLink exact to="" className="nav-link">
+                                <a href="#" className="btn btn-primary CardBtn_style_hire1">HIRE NOW</a>
+                              </NavLink>
+                            </div>
+                          </div>
+                          {/* for mobile start */}
+
+
+                        </div>
+                      </div>
+                    </div>
 
                   </div>
                 </div>
@@ -386,9 +458,6 @@ function HireNow() {
           </div>
         </div>
       </div>
-
-
-
 
       {/* Range and cards end */}
 

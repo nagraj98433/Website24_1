@@ -298,6 +298,15 @@ html {
   .Marging_right {
     margin-right: 5px !important;
   }
+  .FooterFont {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .f_size {
+    color: #1d2150;
+    font-size: 14px;
+  }
 }
 
 /* media Queries end*/
