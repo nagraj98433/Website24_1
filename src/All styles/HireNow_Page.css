@@ -126,11 +126,67 @@ html {
   padding-right: 10px;
   color: #feab0c;
 }
+.Rating_icons1 span {
+  padding-right: 10px;
+  color: #feab0c;
+}
 .Location_rate_container {
   display: flex;
 }
 .profile_Cards_Container {
   max-width: 74rem;
+}
+.FooterFont {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.hire_SM {
+  display: none;
+}
+.Btn_icons_Flex_container_Hire1 {
+  display: flex;
+  justify-content: left;
+}
+.CardBtn_style_hire1 {
+  background-color: red !important;
+  color: #ffff !important;
+  font-size: 1.2rem !important;
+  font-family: "poppins", sans-serif !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+.CardBtn_style_hire1:hover {
+  color: white !important;
+}
+
+.CardBtn_style_hire1:first-child:active {
+  color: white !important;
+}
+.Btn_icons_Flex_container_Hire1 {
+  display: none;
+}
+.EdlerCareBtn1 {
+  font-family: "poppins", sans-serif;
+  font-size: 10px;
+  background-color: #1d2150;
+  font-weight: 400;
+  padding: 0.4rem 1.3rem;
+  color: #feab0c;
+  border: none;
+}
+.EdlerCareBtn1:hover {
+  background-color: #1d2150;
+}
+.Img_container1 {
+  display: flex;
+  align-items: center;
+  margin-right: 10px !important;
+  width: 130px;
+  border-radius: 100%;
+}
+.Hiding_mobile {
+  display: none !important;
 }
 
 /* media Queries start */
@@ -151,19 +207,21 @@ html {
     font-size: 11.9vw;
     width: 100%;
   }
-  .Range_container {
+
+  .Bold_content {
     display: none;
   }
-  .Mobile_width_100 {
-    width: 100%;
+  .hire_SM {
+    display: block;
   }
 }
+
 @media screen and (min-width: 500px) and (max-width: 600px) {
   .List_container {
     font-size: 2.6vw;
   }
   .Bg_background_img {
-    height: 43rem;
+    height: 32rem;
   }
 }
 
@@ -172,10 +230,73 @@ html {
     font-size: 1.4rem;
   }
   .Bg_background_img {
-    height: 42rem;
+    height: 32rem;
   }
   .List_container {
     margin-top: 0rem;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 314px) {
+  .List_container {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 610px) {
+  .List_container ul li {
+    line-height: 1.8rem;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 562px) {
+  .Btn_icons_Flex_container {
+    display: none;
+  }
+}
+@media screen and (max-width: 430px) {
+  .EdlerCareBtn {
+    display: none;
+  }
+  .Rating_icons {
+    display: none;
+  }
+  .Hiding_mobile {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 562px) {
+  .Btn_icons_Flex_container_Hire1 {
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 705px) {
+  .Img_container1 {
+    display: flex;
+    align-items: center;
+    margin-right: 10px !important;
+    width: 230px;
+    border-radius: 100%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 822px) {
+  .Range_container {
+    display: none;
+  }
+  .Mobile_width_100 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 337px) {
+  .CardStyle_Hire {
+    padding: 2rem 1rem 2rem 1rem !important;
+  }
+  .Rating_icons1 span {
+    padding-right: 5px;
+  }
+  .Marging_right {
+    margin-right: 5px !important;
   }
 }
 
