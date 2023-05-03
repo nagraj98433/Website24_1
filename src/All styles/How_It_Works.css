@@ -38,6 +38,9 @@ hr {
   opacity: 1 !important;
   width: 100%;
 }
+.bottom_line {
+  padding-left: 14.2rem !important;
+}
 .Combine_center {
   display: flex;
   justify-content: space-evenly;
