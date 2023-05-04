@@ -6,7 +6,7 @@ html {
   justify-content: space-between;
   width: 50%;
 }
-.text_lines_container div:nth-child(2) {
+.HowItWorks_heading {
   font-family: "poppins", sans-serif;
   font-weight: 900;
   font-size: 3.2rem;
@@ -39,7 +39,7 @@ hr {
   width: 100%;
 }
 .bottom_line {
-  padding-left: 14.2rem !important;
+  padding-left: 11.2vw !important;
 }
 .Combine_center {
   display: flex;
@@ -50,3 +50,43 @@ hr {
   display: flex;
   justify-content: space-between;
 }
+.Step_font {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #1d2150;
+}
+
+.Step_font_SM {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #1d2150;
+}
+.Mobile_SM_container {
+  display: none;
+}
+
+/* Media Queries start  */
+
+@media screen and (min-width: 300px) and (max-width: 705px) {
+  .Mobile_SM_container {
+    display: block;
+  }
+}
+@media screen and (max-width: 705px) {
+  .MD_show {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 550px) {
+  .line_left {
+    width: 15vw;
+  }
+  .HowItWorks_heading {
+    font-size: 6.8vw;
+  }
+}
+
+/* Media Queries end  */

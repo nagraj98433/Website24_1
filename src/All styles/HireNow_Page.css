@@ -249,7 +249,7 @@ html {
   }
 }
 @media screen and (max-width: 562px) {
-  .Btn_icons_Flex_container {
+  .Btn_icons_Flex_container_Hire {
     display: none;
   }
 }

@@ -174,7 +174,7 @@ function HireNow() {
                               <button type="button" class="btn btn-primary EdlerCareBtn">Elder Care</button>
                             </div>
                             <div>
-                              <div className='Btn_icons_Flex_container'>
+                              <div className='Btn_icons_Flex_container_Hire'>
                                 <NavLink exact to="" className="nav-link">
                                   <a href="#" className="btn btn-primary CardBtn_style_hire">HIRE NOW</a>
                                 </NavLink>
@@ -246,7 +246,7 @@ function HireNow() {
                               <button type="button" class="btn btn-primary EdlerCareBtn">Elder Care</button>
                             </div>
                             <div>
-                              <div className='Btn_icons_Flex_container'>
+                              <div className='Btn_icons_Flex_container_Hire'>
                                 <NavLink exact to="" className="nav-link">
                                   <a href="#" className="btn btn-primary CardBtn_style_hire">HIRE NOW</a>
                                 </NavLink>
@@ -318,7 +318,7 @@ function HireNow() {
                               <button type="button" class="btn btn-primary EdlerCareBtn">Elder Care</button>
                             </div>
                             <div>
-                              <div className='Btn_icons_Flex_container'>
+                              <div className='Btn_icons_Flex_container_Hire'>
                                 <NavLink exact to="" className="nav-link">
                                   <a href="#" className="btn btn-primary CardBtn_style_hire">HIRE NOW</a>
                                 </NavLink>
@@ -392,7 +392,7 @@ function HireNow() {
                               <button type="button" class="btn btn-primary EdlerCareBtn">Elder Care</button>
                             </div>
                             <div>
-                              <div className='Btn_icons_Flex_container'>
+                              <div className='Btn_icons_Flex_container_Hire'>
                                 <NavLink exact to="" className="nav-link">
                                   <a href="#" className="btn btn-primary CardBtn_style_hire">HIRE NOW</a>
                                 </NavLink>

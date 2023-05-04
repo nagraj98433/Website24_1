@@ -51,6 +51,10 @@ ul li::marker {
   color: #feab0c;
   font-size: 15px;
 }
+.line_left_about {
+  display: flex;
+  align-items: center;
+}
 
 @media screen and (min-width: 706px) and (max-width: 767.9px) {
   .container {
@@ -81,5 +85,14 @@ ul li::marker {
 @media screen and (min-width: 300px) and (max-width: 360px) {
   .AboutUs_SuBheader {
     font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 550px) {
+  .line_left_about {
+    width: 31vw;
+  }
+  .AboutUs_header {
+    font-size: 8.8vw;
   }
 }
