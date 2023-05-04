@@ -26,7 +26,7 @@ function Footer() {
           </div>
 
           <div>
-            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur fuga omnis accusantium facilis, delectus soluta! Voluptates reiciendis qui ipsum cupiditate quisquam mollitia veritatis. A mollitia veniam reiciendis? Blanditiis, beatae ad modi reiciendis sit sunt et quibusdam suscipit, maxime omnis distinctio aspernatur necessitatibus? Nesciunt possimus dolorum cumque, incidunt enim eligendi nulla totam beatae sint, exercitationem odio quos! Non consequatur veniam distinctio voluptas in, qui corrupti placeat unde corporis dolorum at est sapiente, quibusdam tenetur ipsa. Atque, libero architecto? Et debitis atque placeat! Voluptatem hic mollitia numquam eius, nisi pariatur dolorem nam sit? Voluptas magni praesentium at exercitationem obcaecati incidunt vero inventore!</div>
+            <div className='footer_feedback mt-4 px-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur fuga omnis accusantium facilis, delectus soluta! Voluptates reiciendis qui ipsum cupiditate quisquam mollitia veritatis. A mollitia veniam reiciendis? Blanditiis, beatae ad modi reiciendis sit sunt et quibusdam suscipit, maxime omnis distinctio aspernatur necessitatibus? Nesciunt possimus dolorum cumque, incidunt enim eligendi nulla totam beatae sint, exercitationem odio quos! Non consequatur veniam distinctio voluptas in, qui corrupti placeat unde corporis dolorum at est sapiente, quibusdam tenetur ipsa. Atque, libero architecto? Et debitis atque placeat! Voluptatem hic mollitia numquam eius, nisi pariatur dolorem nam sit? Voluptas magni praesentium at exercitationem obcaecati incidunt vero inventore!</div>
           </div>
         </div>
       </div>
