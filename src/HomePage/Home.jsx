@@ -1,16 +1,18 @@
 import React from 'react'
 import Cards from './Cards/Cards'
 import AboutUS from './AboutUS/AboutUS'
-import How_It_Works from './How_It_Works/How_It_Works'
-import Footer from '../Footer/Footer'
+import Why_US from './Why_US/Why_US'
+import Customer_Review from './Customer_Review/Customer_Review'
+import FAQ from './FAQSection/FAQ'
 
 function Home() {
   return (
     <>
       <Cards />
+      <Why_US />
       <AboutUS />
-      <How_It_Works />
-      <Footer />
+      <Customer_Review />
+      <FAQ />
     </>
   )
 }

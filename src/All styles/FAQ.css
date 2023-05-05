@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+.HeadingSection div:first-child {
+  font-size: 3vw;
+  font-family: "Poppins", sans-serif;
+  color: #2920c4;
+  font-weight: 700;
+}
+
+.AccordinSection {
+  background-color: white;
+  max-width: 88%;
+  margin: 0 auto 0 auto;
+  padding: 2.8rem;
+  border-radius: 1rem;
+  z-index: -1;
+}
+.BorderStyle {
+  border: 1.5px solid #e2dbdb !important;
+  margin-bottom: 1rem;
+  border-radius: 4px !important;
+}
+.BorderStyle h2 button {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 1.2rem 1.5rem;
+}
+.textBody {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  padding: 1.2rem 2.7rem;
+  text-align: justify;
+}
+.accordion-button::after {
+  font-family: "FontAwesome";
+  content: "\f067" !important;
+  background-image: none !important;
+}
+.HowItWorks_heading_Review_FAQ {
+  font-family: "poppins", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #1d2150;
+}

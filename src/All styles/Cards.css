@@ -50,7 +50,7 @@
 .CardBtn_style {
   background-color: #1d2150 !important;
   color: #feab0c !important;
-  font-size: 1.8rem !important;
+  font-size: 1.4rem !important;
   font-family: "poppinse", sans-serif !important;
   border: none !important;
   font-weight: 700 !important;
@@ -110,17 +110,16 @@
   .XS_Block {
     display: none !important;
   }
-  .Mobile_Cards_Flex_container{
+  .Mobile_Cards_Flex_container {
     display: flex;
     flex-direction: column;
   }
 }
 @media screen and (min-width: 300px) and (max-width: 540px) {
-  .CardsLeft_content{
+  .CardsLeft_content {
     font-size: 9vw;
-  } 
+  }
 }
-
 
 @media screen and (min-width: 300px) and (max-width: 411px) {
   .card-text {
@@ -132,7 +131,6 @@
     font-size: 1.1rem !important;
   }
 }
-
 
 @media screen and (min-width: 300px) and (max-width: 705px) {
   .SM_Block {
@@ -146,7 +144,6 @@
     width: 43.5rem !important;
   }
 }
-
 
 @media screen and (min-width: 992px) and (max-width: 1135px) {
   .CardStyle {

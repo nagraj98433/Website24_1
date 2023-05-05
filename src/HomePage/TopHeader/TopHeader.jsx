@@ -22,6 +22,7 @@ function TopHeader() {
                   <NavLink exact to='/' className="nav-link" aria-current="page">Home</NavLink>
                   <NavLink exact to='/aboutus' className="nav-link">About us</NavLink>
                   <NavLink exact to="/services" className="nav-link">Services</NavLink>
+                  <NavLink exact to="/Pricing" className="nav-link">Pricing</NavLink>
                   <NavLink exact to="/Contactus" className="nav-link">Contact us</NavLink>
                   <NavLink to="/login" className="nav-link"><span className='bgRounded'>Login/Signup</span></NavLink>
                 </div>

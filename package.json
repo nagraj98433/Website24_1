@@ -15,6 +15,7 @@
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
     "react-slick": "^0.29.0",
+    "resuite": "^0.0.2",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {

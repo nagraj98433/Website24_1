@@ -1,0 +1,34 @@
+html {
+  font-size: 62.5%;
+}
+
+.image-container_Why_US {
+  position: relative;
+}
+
+.overlay_Why_US {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.overlay_Why_US h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.overlay_Why_US p {
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 80%;
+}
+.Why_US_List_Container {
+  display: flex;
+}

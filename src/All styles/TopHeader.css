@@ -79,40 +79,37 @@ a.active:not(:last-child) {
 .HeaderLeft_content {
   color: #feab0c;
   font-family: "Bebas Neue", cursive;
-  font-size: 3vw;
+  font-size: 2.3vw;
   font-weight: 400;
 }
 .HeaderLeft_content_1 {
   color: #1d2150;
   font-family: "Bebas Neue", cursive;
-  font-size: 3vw;
+  font-size: 2.3vw;
   font-weight: 400;
 }
 
 /* Media Queries start */
 @media screen and (min-width: 300px) and (max-width: 576px) {
-.NavMenu_container{
-  border-bottom: 2px solid #1d2150;
-}
-a.active:not(:last-child){
-  border: none !important;
-}
-}
-
-@media screen and (min-width: 300px) and (max-width: 540px) {
-  .HeaderLeft_content, .HeaderLeft_content_1{
-    font-size: 6vw;
-  } 
-}
-@media screen and (min-width: 300px) and (max-width: 500px) {
-  .PadLeft{
-    padding-left: 9rem !important;
+  .NavMenu_container {
+    border-bottom: 2px solid #1d2150;
+  }
+  a.active:not(:last-child) {
+    border: none !important;
   }
 }
 
-
-
-
+@media screen and (min-width: 300px) and (max-width: 540px) {
+  .HeaderLeft_content,
+  .HeaderLeft_content_1 {
+    font-size: 6vw;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .PadLeft {
+    padding-left: 9rem !important;
+  }
+}
 
 /* Media Queries end */
 
