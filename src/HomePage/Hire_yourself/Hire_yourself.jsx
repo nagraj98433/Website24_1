@@ -68,10 +68,10 @@ const Hire_yourself = () => {
               <div className='from_container'>
                 <form>
                   <div class="mb-3">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Name' />
+                    <input type="email" class="form-control HomePage_Form" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Name' />
                   </div>
                   <div class="mb-3">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder='Enter Mobile Number' />
+                    <input type="password" class="form-control HomePage_Form" id="exampleInputPassword1" placeholder='Enter Mobile Number' />
                   </div>
                   <div className='text-center'> <button type="submit" class="btn btn-primary form_btn">SUBMIT</button></div>
                 </form>

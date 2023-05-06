@@ -188,6 +188,9 @@ html {
 .Hiding_mobile {
   display: none !important;
 }
+.available_form {
+  padding: 0.375rem 0.75rem !important;
+}
 
 /* media Queries start */
 

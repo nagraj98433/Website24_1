@@ -65,7 +65,7 @@ function HireNow() {
                       </span>
                       <input
                         type="text"
-                        class="form-control border-start-0"
+                        class="form-control available_form border-start-0"
                         placeholder=""
                         aria-label="Username"
                         aria-describedby="basic-addon1"
@@ -81,7 +81,7 @@ function HireNow() {
                       </span>
                       <input
                         type="text"
-                        class="form-control border-start-0"
+                        class="form-control available_form border-start-0"
                         placeholder=""
                         aria-label="Username"
                         aria-describedby="basic-addon1"
@@ -95,31 +95,8 @@ function HireNow() {
                         id="customRange1"
                       />
                     </div>
-                    <div>
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckDefault"
-                        />
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Experience
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckChecked"
-                        />
-                        <label class="form-check-label" for="flexCheckChecked">
-                          Fresher
-                        </label>
-                      </div>
-                    </div>
-                    <div>Price</div>
+
+                    <div>Service Price</div>
                     <div className="mt-3">
                       <input
                         type="range"
@@ -127,30 +104,144 @@ function HireNow() {
                         id="customRange1"
                       />
                     </div>
+
                     <div>
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckDefault"
-                        />
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Male
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckChecked"
-                        />
-                        <label class="form-check-label" for="flexCheckChecked">
-                          Female
-                        </label>
+                      <div>Service Experience</div>
+                      <div className="d-inline-flex">
+                        <div class="form-check pe-3">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Experience
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Fresher
+                          </label>
+                        </div>
                       </div>
                     </div>
+
+                    <div>
+                      <div className="mt-4">CareTaker Gender</div>
+                      <div className="d-inline-flex">
+                        <div class="form-check pe-3">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Male
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Female
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div className="mt-4">Eating Habit</div>
+                      <div className="d-flex">
+                        <div class="form-check pe-3">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked />
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Veg
+                          </label>
+                        </div>
+                        <div class="form-check pe-3">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+                          <label class="form-check-label" for="flexCheckChecked">
+                            Non-Veg
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+                          <label class="form-check-label" for="flexCheckChecked">
+                            Any
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div className="mt-4">Urgency (when service required)</div>
+                      <div className="d-inline-flex">
+                        <div class="form-check pe-3">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Immediate Jointer
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            After 2-3 days
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div className="mt-4">Language Prefrence</div>
+                      <div className="d-flex">
+                        <div class="form-check pe-3">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked />
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Hindi
+                          </label>
+                        </div>
+                        <div class="form-check pe-3">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+                          <label class="form-check-label" for="flexCheckChecked">
+                            English
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+                          <label class="form-check-label" for="flexCheckChecked">
+                            Marathi
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+                          <label class="form-check-label" for="flexCheckChecked">
+                            Other
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div className="mt-4">Religious Prefrence</div>
+                      <div className="d-inline-flex">
+                        <div class="form-check pe-3">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Hindu
+                          </label>
+                        </div>
+                        <div class="form-check pe-3">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Muslim
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Any
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+
+
+
                   </div>
                 </div>
               </div>
