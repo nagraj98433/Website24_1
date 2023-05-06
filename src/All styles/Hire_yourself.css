@@ -1,0 +1,63 @@
+html {
+  font-size: 62.5%;
+}
+
+.from_container {
+  max-width: 300px;
+  margin: 0 auto;
+  background: white;
+  padding: 37px 20px 60px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+}
+
+::placeholder {
+  color: gray !important;
+  font-family: "poppins", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 1.1rem;
+  opacity: 0.5;
+}
+.form_btn {
+  background-color: #1d2150 !important;
+  border: none;
+  color: #feab0c;
+  font-size: 1.5rem !important;
+  padding: 0.4rem 3.9rem;
+}
+.form-control {
+  padding: 1.375rem 0.75rem;
+}
+.Horizontal_line hr {
+  border: none !important;
+  border-bottom: 1px solid gray !important;
+  opacity: 0.25 !important;
+  width: 100%;
+}
+.Available_service_container {
+  display: flex;
+}
+.Available_services {
+  font-family: "poppins", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #1d2150;
+}
+.care {
+  background-color: #feab0c91;
+  font-size: 10px;
+  font-family: "poppins", sans-serif;
+  margin-right: 9px;
+  padding: 2px 9px;
+  color: #1d2150;
+}
+.carousel-indicators button {
+  background-color: #1d2150 !important;
+}
+.carousel-indicators {
+  bottom: -33px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  display: none;
+}
