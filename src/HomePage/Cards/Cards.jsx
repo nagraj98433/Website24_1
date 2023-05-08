@@ -40,8 +40,8 @@ function Cards() {
                       </div>
                     </div>
                     <p className="card-text mt-2"><span className='fw-bold'>Condition Handled :</span> It is a long established fact that a reader long established fact</p>
-                    <div className='Available'>
-                      <NavLink exact to="" className="nav-link">
+                    <div className='Available_Btn_container'>
+                      <NavLink exact to="/Available" className="nav-link">
                         <a href="#" className="btn btn-primary CardBtn_style">AVAILABLE</a>
                       </NavLink>
                     </div>
@@ -105,8 +105,8 @@ function Cards() {
                       </div>
                     </div>
                     <p className="card-text mt-2"><span className='fw-bold'>Condition Handled :</span> It is a long established fact that a reader long established fact</p>
-                    <div className='Available'>
-                      <NavLink exact to="" className="nav-link">
+                    <div className='Available_Btn_container'>
+                      <NavLink exact to="/Available" className="nav-link">
                         <a href="#" className="btn btn-primary CardBtn_style">AVAILABLE</a>
                       </NavLink>
                     </div>
@@ -143,8 +143,8 @@ function Cards() {
                       </div>
                     </div>
                     <p className="card-text mt-2"><span className='fw-bold'>Condition Handled :</span> It is a long established fact that a reader long established fact</p>
-                    <div className='Available'>
-                      <NavLink exact to="" className="nav-link">
+                    <div className='Available_Btn_container'>
+                      <NavLink exact to="/Available" className="nav-link">
                         <a href="#" className="btn btn-primary CardBtn_style">AVAILABLE</a>
                       </NavLink>
                     </div>
@@ -181,8 +181,8 @@ function Cards() {
                       </div>
                     </div>
                     <p className="card-text mt-2"><span className='fw-bold'>Condition Handled :</span> It is a long established fact that a reader long established fact</p>
-                    <div className='Available'>
-                      <NavLink exact to="" className="nav-link">
+                    <div className='Available_Btn_container'>
+                      <NavLink exact to="/Available" className="nav-link">
                         <a href="#" className="btn btn-primary CardBtn_style">AVAILABLE</a>
                       </NavLink>
                     </div>
@@ -305,7 +305,7 @@ function Cards() {
       <div className='View_more_profile_container text-center'>
         <div className='Cards_icons'><img src={CardGroup_pic} alt="CardGroup_pic" /></div>
         <div className='View_more_profile_btn_container mt-2'>
-          <NavLink exact to="/hirenow" className="nav-link">
+          <NavLink exact to="/More_Profile" className="nav-link">
             <a href="#" className="btn btn-primary View_more_profile_btn">VIEW MORE PROFILE</a>
           </NavLink>
         </div>

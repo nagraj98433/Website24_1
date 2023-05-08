@@ -5,7 +5,7 @@ import Aboutus_pic from '../../assets/Images/Aboutus_pic.png'
 function AboutUS() {
   return (
     <>
-      <div className='Main_container mt-5'>
+      <div className='Main_container mt-5' id='AboutUS'>
         <div className='container'>
           <div className='row'>
             <div className="col-5 SM_ImgHide">

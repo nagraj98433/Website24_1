@@ -149,7 +149,7 @@ html {
   justify-content: left;
 }
 .CardBtn_style_hire1 {
-  background-color: red !important;
+  background-color: #2ead56 !important;
   color: #ffff !important;
   font-size: 1.2rem !important;
   font-family: "poppins", sans-serif !important;
@@ -218,6 +218,15 @@ html {
 }
 .CardBtn_style_hire_schedule:first-child:active {
   color: #fff !important;
+}
+
+.CardBtn_style_hire_schedule2 {
+  background-color: #feab0c !important;
+  color: #ffff !important;
+  font-size: 1.2rem !important;
+  font-family: "poppins", sans-serif !important;
+  border: none !important;
+  font-weight: 700 !important;
 }
 
 /* media Queries start */

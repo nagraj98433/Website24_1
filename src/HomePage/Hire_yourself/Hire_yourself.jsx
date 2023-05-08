@@ -84,7 +84,7 @@ const Hire_yourself = () => {
 
                 <form noValidate onSubmit={handleSubmit} className={formValidated ? 'was-validated' : ''}>
                   <div className="mb-3">
-                    <input type="text" className="form-control HomePage_Form" id="exampleInputName" placeholder="Enter Your Name" required value={name} onChange={(e) => setName(e.target.value)} autoComplete='off' />
+                    <input type="text" className="form-control HomePage_Form" id="exampleInputName" placeholder="Enter Your Name" pattern="[A-Za-z]{3,}" required value={name} onChange={(e) => setName(e.target.value)} autoComplete='off' />
                     <div className="invalid-feedback">Please enter your name</div>
                   </div>
                   <div className="mb-3">
