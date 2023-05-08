@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../All styles/HireNow_Page.css";
 import "../../node_modules//bootstrap/dist/css/bootstrap.min.css";
 import Profile_pic_1 from '../assets/Images/Profile_pic-1.png'
@@ -8,6 +8,11 @@ import { Outlet, NavLink } from "react-router-dom";
 
 
 function HireNow() {
+
+
+
+
+
   return (
     <>
       {/* Img Overlay content start */}
@@ -72,20 +77,17 @@ function HireNow() {
                       />
                     </div>
                     <div>Location</div>
-                    <div class="input-group mb-0">
+                    <div class="input-group mb-3">
                       <span
                         class="input-group-text Text_light"
                         id="basic-addon1"
                       >
                         <i class="fas fa-map-marker-alt text-warning"></i>
                       </span>
-                      <input
-                        type="text"
-                        class="form-control available_form border-start-0"
-                        placeholder=""
-                        aria-label="Username"
-                        aria-describedby="basic-addon1"
-                      />
+                      <select class="form-select border-start-0" id="inputGroupSelect01">
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Delhi">Delhi</option>
+                      </select>
                     </div>
                     <div>Radius around selected destination</div>
                     <div className="mt-3">
@@ -233,7 +235,14 @@ function HireNow() {
                             Any
                           </label>
                         </div>
+
                       </div>
+                    </div>
+
+                    <div className='filter_apply_btn_container mt-4'>
+                      <NavLink exact to="" className="nav-link">
+                        <a href="#" className="btn btn-primary filter_apply_btn">APPLY</a>
+                      </NavLink>
                     </div>
 
 
@@ -267,17 +276,27 @@ function HireNow() {
                             <div>
                               <div className='Btn_icons_Flex_container_Hire'>
                                 <NavLink exact to="" className="nav-link">
-                                  <a href="#" className="btn btn-primary CardBtn_style_hire">HIRE NOW</a>
+                                  <a href="#" className="btn btn-primary CardBtn_style_hire"><span><i class="fas fa-lock"></i></span> HIRE NOW</a>
                                 </NavLink>
                               </div>
                             </div>
+
                           </div>
-                          <div className="Rating_icons text-start mt-2">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
+                          <div className="Rating_and A_btn_container d-flex justify-content-between">
+                            <div className="Rating_icons text-start mt-2">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div>
+                              <div className='Btn_icons_Flex_container_Hire'>
+                                <NavLink exact to="" className="nav-link">
+                                  <a href="#" className="btn btn-primary CardBtn_style_hire_schedule"><span><i class="fas fa-lock"></i></span> SCHEDULE CALL</a>
+                                </NavLink>
+                              </div>
+                            </div>
                           </div>
                           {/* for mobile start */}
                           <div className="rating_btn_container d-flex justify-content-evenly">
@@ -299,16 +318,15 @@ function HireNow() {
                               <span className="pe-2 text-warning"><i class="fas fa-map-marker-alt"></i></span>
                               <span className="text-warning me-4 Marging_right">Mumbai </span>
                             </div>
-                            <div>
+                            <div className="HireNow_cards">
                               24hr - <span><i class="fas fa-rupee-sign"></i></span><span>1400, </span>
                               12hr - <span><i class="fas fa-rupee-sign"></i></span><span>1000</span>
 
                             </div>
                           </div>
                           <div className="Condition_container text-start mt-2 f_size">
-                            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur officia reprehenderit vero asperiores maxime. Molestiae suscipit assumenda debitis modi?</div>
+                            <div><span className="fw-bold">Condition Handled : </span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur officia reprehenderit vero asperiores maxime. Molestiae suscipit assumenda </div>
                           </div>
-
                           {/* for mobile start */}
                           <div>
                             <div className='Btn_icons_Flex_container_Hire1 mt-3'>
@@ -339,17 +357,26 @@ function HireNow() {
                             <div>
                               <div className='Btn_icons_Flex_container_Hire'>
                                 <NavLink exact to="" className="nav-link">
-                                  <a href="#" className="btn btn-primary CardBtn_style_hire">HIRE NOW</a>
+                                  <a href="#" className="btn btn-primary CardBtn_style_hire"><span><i class="fas fa-lock"></i></span> HIRE NOW</a>
                                 </NavLink>
                               </div>
                             </div>
                           </div>
-                          <div className="Rating_icons text-start mt-2">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
+                          <div className="Rating_and A_btn_container d-flex justify-content-between">
+                            <div className="Rating_icons text-start mt-2">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div>
+                              <div className='Btn_icons_Flex_container_Hire'>
+                                <NavLink exact to="" className="nav-link">
+                                  <a href="#" className="btn btn-primary CardBtn_style_hire_schedule"><span><i class="fas fa-lock"></i></span> SCHEDULE CALL</a>
+                                </NavLink>
+                              </div>
+                            </div>
                           </div>
                           {/* for mobile start */}
                           <div className="rating_btn_container d-flex justify-content-evenly">
@@ -371,14 +398,14 @@ function HireNow() {
                               <span className="pe-2 text-warning"><i class="fas fa-map-marker-alt"></i></span>
                               <span className="text-warning me-4 Marging_right">Mumbai </span>
                             </div>
-                            <div>
+                            <div className="HireNow_cards">
                               24hr - <span><i class="fas fa-rupee-sign"></i></span><span>1400, </span>
                               12hr - <span><i class="fas fa-rupee-sign"></i></span><span>1000</span>
 
                             </div>
                           </div>
                           <div className="Condition_container text-start mt-2 f_size">
-                            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur officia reprehenderit vero asperiores maxime. Molestiae suscipit assumenda debitis modi?</div>
+                            <div><span className="fw-bold">Condition Handled : </span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur officia reprehenderit vero asperiores maxime. Molestiae suscipit assumenda </div>
                           </div>
 
                           {/* for mobile start */}
@@ -411,17 +438,26 @@ function HireNow() {
                             <div>
                               <div className='Btn_icons_Flex_container_Hire'>
                                 <NavLink exact to="" className="nav-link">
-                                  <a href="#" className="btn btn-primary CardBtn_style_hire">HIRE NOW</a>
+                                  <a href="#" className="btn btn-primary CardBtn_style_hire"><span><i class="fas fa-lock"></i></span> HIRE NOW</a>
                                 </NavLink>
                               </div>
                             </div>
                           </div>
-                          <div className="Rating_icons text-start mt-2">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
+                          <div className="Rating_and A_btn_container d-flex justify-content-between">
+                            <div className="Rating_icons text-start mt-2">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div>
+                              <div className='Btn_icons_Flex_container_Hire'>
+                                <NavLink exact to="" className="nav-link">
+                                  <a href="#" className="btn btn-primary CardBtn_style_hire_schedule"><span><i class="fas fa-lock"></i></span> SCHEDULE CALL</a>
+                                </NavLink>
+                              </div>
+                            </div>
                           </div>
                           {/* for mobile start */}
                           <div className="rating_btn_container d-flex justify-content-evenly">
@@ -443,14 +479,14 @@ function HireNow() {
                               <span className="pe-2 text-warning"><i class="fas fa-map-marker-alt"></i></span>
                               <span className="text-warning me-4 Marging_right">Mumbai </span>
                             </div>
-                            <div>
+                            <div className="HireNow_cards">
                               24hr - <span><i class="fas fa-rupee-sign"></i></span><span>1400, </span>
                               12hr - <span><i class="fas fa-rupee-sign"></i></span><span>1000</span>
 
                             </div>
                           </div>
                           <div className="Condition_container text-start mt-2 f_size">
-                            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur officia reprehenderit vero asperiores maxime. Molestiae suscipit assumenda debitis modi?</div>
+                            <div><span className="fw-bold">Condition Handled : </span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur officia reprehenderit vero asperiores maxime. Molestiae suscipit assumenda </div>
                           </div>
 
                           {/* for mobile start */}
@@ -485,17 +521,26 @@ function HireNow() {
                             <div>
                               <div className='Btn_icons_Flex_container_Hire'>
                                 <NavLink exact to="" className="nav-link">
-                                  <a href="#" className="btn btn-primary CardBtn_style_hire">HIRE NOW</a>
+                                  <a href="#" className="btn btn-primary CardBtn_style_hire"><span><i class="fas fa-lock"></i></span> HIRE NOW</a>
                                 </NavLink>
                               </div>
                             </div>
                           </div>
-                          <div className="Rating_icons text-start mt-2">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
+                          <div className="Rating_and A_btn_container d-flex justify-content-between">
+                            <div className="Rating_icons text-start mt-2">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div>
+                              <div className='Btn_icons_Flex_container_Hire'>
+                                <NavLink exact to="" className="nav-link">
+                                  <a href="#" className="btn btn-primary CardBtn_style_hire_schedule"><span><i class="fas fa-lock"></i></span> SCHEDULE CALL</a>
+                                </NavLink>
+                              </div>
+                            </div>
                           </div>
                           {/* for mobile start */}
                           <div className="rating_btn_container d-flex justify-content-evenly">
@@ -517,14 +562,14 @@ function HireNow() {
                               <span className="pe-2 text-warning"><i class="fas fa-map-marker-alt"></i></span>
                               <span className="text-warning me-4 Marging_right">Mumbai </span>
                             </div>
-                            <div>
+                            <div className="HireNow_cards">
                               24hr - <span><i class="fas fa-rupee-sign"></i></span><span>1400, </span>
                               12hr - <span><i class="fas fa-rupee-sign"></i></span><span>1000</span>
 
                             </div>
                           </div>
                           <div className="Condition_container text-start mt-2 f_size">
-                            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur officia reprehenderit vero asperiores maxime. Molestiae suscipit assumenda debitis modi?</div>
+                            <div><span className="fw-bold">Condition Handled : </span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur officia reprehenderit vero asperiores maxime. Molestiae suscipit assumenda </div>
                           </div>
 
                           {/* for mobile start */}

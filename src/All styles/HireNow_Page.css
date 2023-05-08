@@ -96,7 +96,7 @@ html {
   font-weight: 700 !important;
 }
 .CardBtn_style_hire {
-  background-color: red !important;
+  background-color: #2ead56 !important;
   color: #ffff !important;
   font-size: 1.2rem !important;
   font-family: "poppins", sans-serif !important;
@@ -190,6 +190,34 @@ html {
 }
 .available_form {
   padding: 0.375rem 0.75rem !important;
+}
+.filter_apply_btn {
+  background-color: #383a52 !important;
+  color: #feab0c !important;
+  border: 1px solid #feab0c !important;
+  font-size: 1.3rem !important;
+  padding: 4px 15px !important;
+  font-family: "poppins", sans-serif !important;
+  font-weight: 500 !important;
+}
+.HireNow_cards {
+  font-size: 11px;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+.CardBtn_style_hire_schedule {
+  background-color: #feab0c !important;
+  color: #ffff !important;
+  font-size: 1.2rem !important;
+  font-family: "poppins", sans-serif !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+.CardBtn_style_hire_schedule:hover {
+  color: #fff !important;
+}
+.CardBtn_style_hire_schedule:first-child:active {
+  color: #fff !important;
 }
 
 /* media Queries start */
