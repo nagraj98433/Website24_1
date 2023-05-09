@@ -316,3 +316,64 @@ html {
   align-items: center;
   color: #1d2150;
 }
+
+/* For Supreme offer cards ended*/
+
+.full_width {
+  width: 100% !important;
+}
+
+.image-container_six_months_bg {
+  position: relative;
+}
+
+.overlay_six_months_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.overlay_six_months_bg div {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.image-container_six_months_bg img {
+  width: 100%;
+}
+.Six_months {
+  font-family: "poppins", sans-serif;
+  font-size: 47px;
+  font-weight: 400;
+}
+.six_months_rate {
+  font-family: "poppins", sans-serif;
+  font-size: 47px;
+  font-weight: 600;
+  color: #feab0c;
+}
+.BuyNow_btn {
+  background-color: #383a52 !important;
+  color: #feab0c !important;
+  border: none !important;
+  font-size: 1.5rem !important;
+  padding: 4px 15px !important;
+  font-family: "poppins", sans-serif !important;
+  font-weight: 500 !important;
+}
+/* Media Queries start*/
+
+@media screen and (min-width: 300px) and (max-width: 680px) {
+  .Six_months,
+  .six_months_rate {
+    font-size: 7vw;
+  }
+}
+/* Media Queries end */

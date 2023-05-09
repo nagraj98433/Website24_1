@@ -1,6 +1,8 @@
 import React from 'react'
 import '../All styles/Pricing_Page.css'
 import Offer_pic_bg_overlay from '../assets/Images/Offer_pic_bg_overlay.png'
+import Six_months_bg from '../assets/Images/Six_months_bg.png'
+import { Outlet, NavLink } from "react-router-dom";
 
 function Pricing() {
   return (
@@ -29,7 +31,9 @@ function Pricing() {
                 </div>
                 {/* Overlay5 */}
                 <div class="overlay5_Basic">
-                  <div>Hello5</div>
+                  <NavLink exact to="" className="nav-link">
+                    <a href="#" className="btn btn-primary BuyNow_btn">BUY NOW</a>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -56,7 +60,9 @@ function Pricing() {
                 </div>
                 {/* Overlay5 */}
                 <div class="overlay5_Standard">
-                  <div>Hello5</div>
+                  <NavLink exact to="" className="nav-link">
+                    <a href="#" className="btn btn-primary BuyNow_btn">BUY NOW</a>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -83,7 +89,9 @@ function Pricing() {
                 </div>
                 {/* Overlay5 */}
                 <div class="overlay5_Premium">
-                  <div>Hello5</div>
+                  <NavLink exact to="" className="nav-link">
+                    <a href="#" className="btn btn-primary BuyNow_btn">BUY NOW</a>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -110,17 +118,28 @@ function Pricing() {
                 </div>
                 {/* Overlay5 */}
                 <div class="overlay5_Premium">
-                  <div>Hello5</div>
+                  <NavLink exact to="" className="nav-link">
+                    <a href="#" className="btn btn-primary BuyNow_btn">BUY NOW</a>
+                  </NavLink>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
 
 
-
+      <div className='full_width mt-4'>
+        <div class="image-container_six_months_bg">
+          <img src={Six_months_bg} alt="Sx_months_bg" />
+          <div class="overlay_six_months_bg">
+            <div><span className='Six_months'>6 Months - </span> <span className='six_months_rate'><span><i class="fas fa-rupee-sign"></i></span>5000</span> <span className='only'>only</span></div>
+          </div>
         </div>
 
       </div>
+
+
     </>
   )
 }
