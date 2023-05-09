@@ -118,6 +118,7 @@ function Cards() {
                     </div>
                   </div>
                 </div>
+
                 {/* Third Card */}
                 <div className="card CardStyle SM_Block m-4" style={{ width: '18rem' }}>
                   <img src={Nursing} className="card-img-top" alt="..." />
@@ -193,105 +194,6 @@ function Cards() {
                     </div>
                   </div>
                 </div>
-
-              </div>
-            </div>
-
-
-
-            {/* mobile second & third card started */}
-
-            <div className="col-auto col-md-12 col-lg-9 col-xl-9 col-xxl-9 px-0 Destop_responsive">
-              <div className='Flex_container'>
-
-                {/* Extra Small second mobile cards start */}
-
-                <div className="card CardStyle XS_Block mb-5">
-                  <div className='Flex_container'>
-                    <div className='Img_container'>
-                      <img src={ElderCare} className="card-img-top" alt="..." />
-                    </div>
-                    <div className="card-body p-0" style={{ maxWidth: '240px' }}>
-                      <h5 className="card-title">John Doe</h5>
-                      <p className="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when that a reader will be distracted by the </p>
-                      <div className='Btn_icons_Flex_container'>
-                        <NavLink exact to="" className="nav-link">
-                          <a href="#" className="btn btn-primary CardBtn_style">AVAILABLE</a>
-                        </NavLink>
-                        <div className='Cards_icons'><img src={CardGroup_pic} alt="CardGroup_pic" /></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Extra Small second mobile cards End */}
-
-              </div>
-            </div>
-
-            <div className="col-auto col-md-12 col-lg-9 col-xl-9 col-xxl-9 px-0 Destop_responsive">
-              <div className='Flex_container'>
-
-                {/* Extra Small third mobile cards start */}
-
-                <div className="card CardStyle XS_Block mb-5">
-                  <div className='Flex_container'>
-                    <div className='Img_container'>
-                      <img src={ElderCare} className="card-img-top" alt="..." />
-                    </div>
-                    <div className="card-body p-0" style={{ maxWidth: '240px' }}>
-                      <h5 className="card-title">John Doe</h5>
-                      <p className="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when that a reader will be distracted by the </p>
-                      <div className='Btn_icons_Flex_container'>
-                        <NavLink exact to="" className="nav-link">
-                          <a href="#" className="btn btn-primary CardBtn_style">AVAILABLE</a>
-                        </NavLink>
-                        <div className='Cards_icons'><img src={CardGroup_pic} alt="CardGroup_pic" /></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Extra Small third mobile cards End */}
-
-
-
-
-                {/* mobile second & third card started */}
-
-              </div>
-            </div>
-
-            {/* mobile forth card started */}
-            {/* mobile second & third card started */}
-
-
-
-            <div className="col-auto col-md-12 col-lg-9 col-xl-9 col-xxl-9 px-0 Destop_responsive">
-              <div className='Flex_container'>
-
-                {/* Extra Small forth mobile cards start */}
-
-                <div className="card CardStyle XS_Block mb-5">
-                  <div className='Flex_container'>
-                    <div className='Img_container'>
-                      <img src={ElderCare} className="card-img-top" alt="..." />
-                    </div>
-                    <div className="card-body p-0" style={{ maxWidth: '240px' }}>
-                      <h5 className="card-title">John Doe</h5>
-                      <p className="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when that a reader will be distracted by the </p>
-                      <div className='Btn_icons_Flex_container'>
-                        <NavLink exact to="" className="nav-link">
-                          <a href="#" className="btn btn-primary CardBtn_style">AVAILABLE</a>
-                        </NavLink>
-                        <div className='Cards_icons'><img src={CardGroup_pic} alt="CardGroup_pic" /></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Extra Small forth mobile cards End */}
-
 
               </div>
             </div>

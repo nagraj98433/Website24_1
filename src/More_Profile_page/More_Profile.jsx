@@ -20,7 +20,7 @@ function More_Profile() {
         <div class="image-container">
           <div className="Bg_background_img"></div>
 
-          <div class="overlay">
+          <div class="overlay_profile">
             <div className="Overlay_flex_container">
               <div className="Bold_Container_flex">
                 <div className="Bold_content hire_SM">WHY US</div>
@@ -262,7 +262,13 @@ function More_Profile() {
                       <div className='Flex_container'>
                         <div className='Img_container1'>
                           <img src={Profile_pic_1} className="card-img-top" alt="..." />
+                          <div class="overlay_fav">
+                            <div><span className="Myfavourite"><i class="fab fa-gratipay"></i></span></div>
+                          </div>
                         </div>
+
+
+
                         <div className="card-body p-0" style={{ maxWidth: '540px' }}>
                           <div className="d-flex justify-content-between">
                             <div className="d-flex justify-content-between">
@@ -362,7 +368,14 @@ function More_Profile() {
                       <div className='Flex_container'>
                         <div className='Img_container1'>
                           <img src={Profile_pic_2} className="card-img-top" alt="..." />
+                          <div class="overlay_fav">
+                            <div><span className="Myfavourite"><i class="fab fa-gratipay"></i></span></div>
+                          </div>
                         </div>
+
+
+
+
                         <div className="card-body p-0" style={{ maxWidth: '540px' }}>
                           <div className="d-flex justify-content-between">
                             <div className="d-flex justify-content-between">
@@ -453,7 +466,14 @@ function More_Profile() {
                       <div className='Flex_container'>
                         <div className='Img_container1'>
                           <img src={Profile_pic_3} className="card-img-top" alt="..." />
+                          <div class="overlay_fav">
+                            <div><span className="Myfavourite"><i class="fab fa-gratipay"></i></span></div>
+                          </div>
                         </div>
+
+
+
+
                         <div className="card-body p-0" style={{ maxWidth: '540px' }}>
                           <div className="d-flex justify-content-between">
                             <div className="d-flex justify-content-between">
@@ -546,7 +566,13 @@ function More_Profile() {
                       <div className='Flex_container'>
                         <div className='Img_container1'>
                           <img src={Profile_pic_1} className="card-img-top" alt="..." />
+                          <div class="overlay_fav">
+                            <div><span className="Myfavourite"><i class="fab fa-gratipay"></i></span></div>
+                          </div>
                         </div>
+
+
+
                         <div className="card-body p-0" style={{ maxWidth: '540px' }}>
                           <div className="d-flex justify-content-between">
                             <div className="d-flex justify-content-between">
@@ -647,6 +673,11 @@ function More_Profile() {
         © 2021 Care24. All Rights Reserved.
       </footer>
       {/* Footer end */}
+
+
+
+
+
     </>
   );
 }

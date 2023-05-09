@@ -70,9 +70,6 @@ hr {
 }
 
 @media screen and (min-width: 300px) and (max-width: 728px) {
-  .image-container1 {
-    height: 60vh;
-  }
   .image-container1 img {
     height: 100%;
   }
@@ -86,10 +83,15 @@ hr {
     width: 15vw;
   }
 }
-
-@media screen and (min-width: 300px) and (max-width: 310px) {
+@media screen and (min-width: 300px) and (max-width: 594px) {
   .image-container1 {
-    height: 70vh;
+    height: 60vw;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 390px) {
+  .image-container1 {
+    height: 88vh;
   }
 }
 
