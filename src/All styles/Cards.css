@@ -204,10 +204,14 @@
   .slick-prev {
     left: -14px !important;
     background-color: #2cac54 !important;
+    border-radius: 20px;
+    height: 19px !important;
   }
   .slick-next {
     right: -14px !important;
     background-color: #2cac54 !important;
+    border-radius: 20px;
+    height: 19px !important;
   }
 }
 
@@ -251,12 +255,17 @@
 }
 .slick-prev {
   left: -14px !important;
-  background-color: #2cac54 !important;
+  background-color: #feab0c !important;
+  height: 19px !important;
+  border-radius: 20px;
 }
 .slick-next {
   right: -14px !important;
-  background-color: #2cac54 !important;
+  background-color: #feab0c !important;
+  border-radius: 20px;
+  height: 19px !important;
 }
+
 .slick-dots {
   display: none !important;
 }
