@@ -77,9 +77,9 @@ const Hire_yourself = () => {
 
 
         </div>
-        <div className="col-auto col-xxl-5 col-xl-5 col-lg-4 col-md-4 col-sm-12 mt-md-5 mt-sm-5 FormSection">
+        <div className="col-12 col-xxl-5 col-xl-5 col-lg-4 col-md-4 col-sm-12 mt-md-5 mt-sm-5 FormSection">
           <div className="row">
-            <div className="col-auto col-md-12 col-sm-12">
+            <div className="col-12 col-md-12 col-sm-12">
               <div className='from_container'>
 
                 <form noValidate onSubmit={handleSubmit} className={formValidated ? 'was-validated' : ''}>

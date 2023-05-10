@@ -5,8 +5,23 @@ import BabyCare from '../../assets/Images/BabyCare.png'
 import Nursing from '../../assets/Images/Nursing.png'
 import CardGroup_pic from '../../assets/Images/CardGroup_pic.png'
 import { Outlet, NavLink } from "react-router-dom";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 function Cards() {
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+
+
+
   return (
     <>
       <div className='Main_container mt-5'>
@@ -180,9 +195,10 @@ function Cards() {
             </div>
             {/* Forth Card end */}
 
+            {/* For Mobile Cards start */}
 
-            <div className="col-auto XS_Block">
-              <div className="card CardStyle  mb-5">
+            <Slider {...settings}>
+              <div className="card CardStyle XS_Block mb-5">
                 <div className='Flex_container'>
                   <div className='Img_container'>
                     <img src={ElderCare} className="card-img-top" alt="..." />
@@ -191,7 +207,7 @@ function Cards() {
                     <h5 className="card-title">John Doe</h5>
                     <p className="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when that a reader will be distracted by the </p>
                     <div className='Btn_icons_Flex_container'>
-                      <NavLink exact to="" className="nav-link">
+                      <NavLink exact to="" className="nav-link border-bottom-0">
                         <a href="#" className="btn btn-primary CardBtn_style">AVAILABLE</a>
                       </NavLink>
                       <div className='Cards_icons'><img src={CardGroup_pic} alt="CardGroup_pic" /></div>
@@ -199,7 +215,46 @@ function Cards() {
                   </div>
                 </div>
               </div>
-            </div>
+
+              <div className="card CardStyle XS_Block mb-5">
+                <div className='Flex_container'>
+                  <div className='Img_container'>
+                    <img src={ElderCare} className="card-img-top" alt="..." />
+                  </div>
+                  <div className="card-body p-0" style={{ maxWidth: '240px' }}>
+                    <h5 className="card-title">John Doe</h5>
+                    <p className="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when that a reader will be distracted by the </p>
+                    <div className='Btn_icons_Flex_container'>
+                      <NavLink exact to="" className="nav-link border-bottom-0">
+                        <a href="#" className="btn btn-primary CardBtn_style">AVAILABLE</a>
+                      </NavLink>
+                      <div className='Cards_icons'><img src={CardGroup_pic} alt="CardGroup_pic" /></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="card CardStyle XS_Block mb-5">
+                <div className='Flex_container'>
+                  <div className='Img_container'>
+                    <img src={ElderCare} className="card-img-top" alt="..." />
+                  </div>
+                  <div className="card-body p-0" style={{ maxWidth: '240px' }}>
+                    <h5 className="card-title">John Doe</h5>
+                    <p className="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when that a reader will be distracted by the </p>
+                    <div className='Btn_icons_Flex_container'>
+                      <NavLink exact to="" className="nav-link border-bottom-0">
+                        <a href="#" className="btn btn-primary CardBtn_style">AVAILABLE</a>
+                      </NavLink>
+                      <div className='Cards_icons'><img src={CardGroup_pic} alt="CardGroup_pic" /></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </Slider>
+
+            {/* For Mobile Cards end */}
 
           </div>
         </div>

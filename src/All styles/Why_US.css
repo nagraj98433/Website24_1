@@ -32,3 +32,12 @@ html {
 .Why_US_List_Container {
   display: flex;
 }
+
+/* Media Queries start */
+
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  .Why_US_List_Container {
+    flex-direction: column;
+  }
+}
+/* Media Queries End */

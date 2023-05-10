@@ -24,11 +24,12 @@
   text-align: center !important;
   border: none !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: 1s ease-in-out;
+  transition: 0.5s ease;
+  margin: 0 auto;
 }
 .CardStyle:hover {
   background-color: #1d2150 !important;
-  transition: 2s ease-in-out;
+  transition: 1s ease-in-out;
 }
 .CardStyle:hover .Hours {
   color: #feab0c !important;
@@ -196,6 +197,19 @@
     width: 43.5rem !important;
   }
 }
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .CardStyle {
+    width: 88vw !important;
+  }
+  .slick-prev {
+    left: -14px !important;
+    background-color: #2cac54 !important;
+  }
+  .slick-next {
+    right: -14px !important;
+    background-color: #2cac54 !important;
+  }
+}
 
 @media screen and (min-width: 992px) and (max-width: 1135px) {
   .CardStyle {
@@ -207,3 +221,44 @@
     padding: 1.5rem 1.5rem 0px 1.5rem !important;
   }
 }
+
+@media screen and (min-width: 705px) {
+  .slick-next {
+    display: none !important;
+  }
+  .slick-prev {
+    display: none !important;
+  }
+}
+
+/* Card Slider CSS start */
+
+.card-slider {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 400px;
+  margin-right: 20px;
+  scroll-snap-align: start;
+}
+.slick-prev {
+  left: -14px !important;
+  background-color: #2cac54 !important;
+}
+.slick-next {
+  right: -14px !important;
+  background-color: #2cac54 !important;
+}
+.slick-dots {
+  display: none !important;
+}
+
+/* Card Slider CSS end */
