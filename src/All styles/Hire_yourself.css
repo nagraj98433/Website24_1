@@ -50,8 +50,9 @@ html {
   font-size: 10px;
   font-family: "poppins", sans-serif;
   margin-right: 9px;
-  padding: 2px 9px;
+  padding: 4px 9px;
   color: #1d2150;
+  border-radius: 2px;
 }
 .carousel-indicators button {
   background-color: #1d2150 !important;
@@ -63,3 +64,23 @@ html {
 .carousel-control-prev {
   display: none;
 }
+.Slider_img {
+  max-width: 100%;
+}
+
+/* Media Queries start */
+
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  .FormSection {
+    margin-top: 25px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 946px) {
+  .care {
+    padding: 4px 2px;
+  }
+  .from_container {
+    padding: 37px 10px 60px 10px;
+  }
+}
+/* Media Queries end */

@@ -48,24 +48,24 @@ const Hire_yourself = () => {
   return (
     <div className='Main_container mt-5'>
       <div className="row  mx-0">
-        <div className="col-7">
+        <div className="col-auto col-xxl-7 col-xl-7 col-lg-8 col-md-8 col-sm-12">
 
 
           <Carousel activeIndex={index} onSelect={handleSlideChange}>
             <Carousel.Item>
-              <img src={Hire_Yourself} alt="First slide" />
+              <img src={Hire_Yourself} alt="First slide" className='Slider_img' />
               <Carousel.Caption>
 
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img src={Hire_Yourself} alt="Second slide" />
+              <img src={Hire_Yourself} alt="Second slide" className='Slider_img' />
               <Carousel.Caption>
 
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img src={Hire_Yourself} alt="Third slide" />
+              <img src={Hire_Yourself} alt="Third slide" className='Slider_img' />
               <Carousel.Caption>
 
               </Carousel.Caption>
@@ -77,9 +77,9 @@ const Hire_yourself = () => {
 
 
         </div>
-        <div className="col-5">
+        <div className="col-auto col-xxl-5 col-xl-5 col-lg-4 col-md-4 col-sm-12 mt-md-5 mt-sm-5 FormSection">
           <div className="row">
-            <div className="col-10">
+            <div className="col-auto col-md-12 col-sm-12">
               <div className='from_container'>
 
                 <form noValidate onSubmit={handleSubmit} className={formValidated ? 'was-validated' : ''}>
