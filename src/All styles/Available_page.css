@@ -1,11 +1,400 @@
-.Available {
+html {
+  font-size: 62.5%;
+}
+.Full_width {
+  max-width: 100% !important;
+  padding: 0 0 !important;
+}
+.Bg_background_img {
+  background-image: url("../assets/Images/HandPic_overlay.png");
+  background-repeat: no-repeat;
+  background-size: 103% 100%;
+  height: 31rem;
+  background-position-x: center;
+}
+
+/* img overlay conten */
+
+.image-container {
+  position: relative;
+}
+
+.overlay_profile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  font-size: 3rem;
+  color: #fff;
+}
+
+.overlay h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 80%;
+}
+.Overlay_flex_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.Bold_Container_flex {
+  display: flex;
+  flex-direction: column;
+  line-height: 8.3rem;
+}
+.Bold_content {
   font-family: "poppins", sans-serif;
-  background-color: violet;
-  color: #1e6056;
-  font-weight: 700;
+  font-size: 7.9rem;
+  font-weight: 900;
+  width: 20.8rem;
+}
+.List_container {
+  font-family: "poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3.6rem;
+}
+.Range_container {
+  background-color: #f5f7fc;
+  padding: 1.7rem;
+  border-radius: 1rem;
+}
+
+.Text_light {
+  background-color: white !important;
+}
+.F_size {
+  font-size: 1.6rem !important;
+}
+.CardStyle_Hire {
+  width: 100% !important;
+  border-radius: 2.5rem !important;
+  background-color: white !important;
+  padding: 2rem 2rem 2rem 2rem !important;
+  text-align: center !important;
+  border: none !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Flex_container {
+  display: flex;
+}
+.card-title_hire {
+  color: #1d2150 !important;
+  font-size: 2rem !important;
+  font-family: "poppins", sans-serif !important;
+  font-weight: 700 !important;
+}
+.CardBtn_style_hire {
+  background-color: #2ead56 !important;
+  color: #ffff !important;
+  font-size: 1.2rem !important;
+  font-family: "poppins", sans-serif !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+.EdlerCareBtn {
+  font-family: "poppins", sans-serif;
+  font-size: 10px;
+  background-color: #1d2150;
+  font-weight: 400;
+  padding: 0 1.3rem;
+  color: #feab0c;
+  border: none;
+}
+.EdlerCareBtn:hover {
+  background-color: #1d2150;
+}
+.CardBtn_style_hire:hover {
+  color: white !important;
+}
+
+.CardBtn_style_hire:first-child:active {
+  color: white !important;
+}
+.Rating_icons span {
+  padding-right: 10px;
+  color: #feab0c;
+}
+.Rating_icons1 span {
+  padding-right: 10px;
+  color: #feab0c;
+}
+.Location_rate_container {
+  display: flex;
+}
+.profile_Cards_Container {
+  max-width: 74rem;
+}
+.FooterFont {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.hire_SM {
+  display: none;
+}
+.Btn_icons_Flex_container_Hire1 {
+  display: flex;
+  justify-content: left;
+}
+.CardBtn_style_hire1 {
+  background-color: #2ead56 !important;
+  color: #ffff !important;
+  font-size: 1.2rem !important;
+  font-family: "poppins", sans-serif !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+.CardBtn_style_hire1:hover {
+  color: white !important;
+}
+
+.CardBtn_style_hire1:first-child:active {
+  color: white !important;
+}
+.Btn_icons_Flex_container_Hire1 {
+  display: none;
+}
+.EdlerCareBtn1 {
+  font-family: "poppins", sans-serif;
+  font-size: 10px;
+  background-color: #1d2150;
+  font-weight: 400;
+  padding: 0.4rem 1.3rem;
+  color: #feab0c;
+  border: none;
+}
+.EdlerCareBtn1:hover {
+  background-color: #1d2150;
+}
+.Img_container1 {
+  display: flex;
+  align-items: center;
+  margin-right: 10px !important;
+  width: 130px;
+  border-radius: 100%;
+}
+.Hiding_mobile {
+  display: none !important;
+}
+.available_form {
+  padding: 0.375rem 0.75rem !important;
+}
+.filter_apply_btn {
+  background-color: #383a52 !important;
+  color: #feab0c !important;
+  border: 1px solid #feab0c !important;
+  font-size: 1.3rem !important;
+  padding: 4px 15px !important;
+  font-family: "poppins", sans-serif !important;
+  font-weight: 500 !important;
+}
+.HireNow_cards {
+  font-size: 11px;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+.CardBtn_style_hire_schedule {
+  background-color: #feab0c !important;
+  color: #ffff !important;
+  font-size: 1.2rem !important;
+  font-family: "poppins", sans-serif !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+.CardBtn_style_hire_schedule:hover {
+  color: #fff !important;
+}
+.CardBtn_style_hire_schedule:first-child:active {
+  color: #fff !important;
+}
+
+.CardBtn_style_hire_schedule2 {
+  background-color: #feab0c !important;
+  color: #ffff !important;
+  font-size: 1.2rem !important;
+  font-family: "poppins", sans-serif !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+
+/* media Queries start */
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .Overlay_flex_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Bold_Container_flex {
+    flex-direction: row;
+  }
+  .List_container {
+    padding: 0 2.5rem;
+  }
+  .Bold_content {
+    font-size: 11.9vw;
+    width: 100%;
+  }
+
+  .Bold_content {
+    display: none;
+  }
+  .hire_SM {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .List_container {
+    font-size: 2.6vw;
+  }
+  .Bg_background_img {
+    height: 32rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499.99px) {
+  .List_container {
+    font-size: 1.4rem;
+  }
+  .Bg_background_img {
+    height: 32rem;
+  }
+  .List_container {
+    margin-top: 0rem;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 314px) {
+  .List_container {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 610px) {
+  .List_container ul li {
+    line-height: 1.8rem;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 562px) {
+  .Btn_icons_Flex_container_Hire {
+    display: none;
+  }
+}
+@media screen and (max-width: 430px) {
+  .EdlerCareBtn {
+    display: none;
+  }
+  .Rating_icons {
+    display: none;
+  }
+  .Hiding_mobile {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 562px) {
+  .Btn_icons_Flex_container_Hire1 {
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 705px) {
+  .Img_container1 {
+    display: flex;
+    align-items: center;
+    margin-right: 10px !important;
+    width: 230px;
+    border-radius: 100%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 822px) {
+  .Range_container {
+    display: none;
+  }
+  .Mobile_width_100 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 337px) {
+  .CardStyle_Hire {
+    padding: 2rem 1rem 2rem 1rem !important;
+  }
+  .Rating_icons1 span {
+    padding-right: 5px;
+  }
+  .Marging_right {
+    margin-right: 5px !important;
+  }
+  .FooterFont {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .f_size {
+    color: #1d2150;
+    font-size: 14px;
+  }
+}
+
+/* media Queries end*/
+
+/* my favourite card start */
+.image-container1 {
+  position: relative;
+}
+
+.overlay_fav {
+  position: absolute;
+  top: 14px;
+  left: 122px;
+  width: 4%;
+  height: 26%;
+  color: red;
+}
+
+.Myfavourite {
+  font-size: 2.5rem;
+}
+
+/* my favourite card end */
+
+/* checking */
+.image-container {
+  position: relative;
+}
+
+.overlaybb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.overlaybb h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.overlaybb p {
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 80%;
 }

@@ -227,6 +227,10 @@ html {
   border: none !important;
   font-weight: 700 !important;
 }
+.MaxHeight {
+  height: 130px !important;
+  border-radius: 100% !important;
+}
 
 /* media Queries start */
 
