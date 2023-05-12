@@ -96,7 +96,9 @@
 .Highlight_container ul li {
   font-family: "poppins", sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
+  line-height: 28px;
+  color: #1d2150;
 }
 .Available_CardBtn_style_hire {
   background-color: #2ead56 !important;
