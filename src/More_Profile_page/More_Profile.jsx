@@ -26,7 +26,9 @@ function More_Profile() {
       .catch(error => console.error(error))
   }, []);
 
-  cgsProfile.map((preval) => { console.log(preval) })
+  cgsProfile.map((preval) => {
+    console.log(preval)
+  })
 
 
 
@@ -279,7 +281,9 @@ function More_Profile() {
 
                     {cgsProfile.map((value, ind) => (
 
-                      <Profile_Cards cg_name={value.cg_name} profile_pc={value.profile_pic} price={value.price_package} key={ind} />
+                      <Profile_Cards cg_name={value.cg_name} profile_pc={value.profile_pic} price={value.price_package} key={ind}
+                        condition_Handled={value.condition_handled}
+                      />
 
                     ))}
 
