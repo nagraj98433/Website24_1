@@ -61,3 +61,22 @@
   font-size: 16px;
   font-weight: 400;
 }
+.status_availibily span i {
+  color: #02bf2e;
+  font-size: 10px;
+}
+.status_availibilty {
+  position: absolute;
+  top: 10px;
+  left: -69px;
+  width: 1vw;
+  height: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.status_availibilty span i {
+  color: #02bf2e;
+  font-size: 16px;
+}

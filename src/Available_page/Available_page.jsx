@@ -23,7 +23,7 @@ function Available_page() {
               <div className='Age_gender'><span className='me-2'>32 Years,</span> <span> Female</span></div>
             </div>
             <div className='available_cgDetails2_flex_container'>
-              <div className='me-3'><button type="button" class="btn btn-primary">Nursing</button></div>
+              <div className='me-3'><button type="button" class="btn btn-warning">Nursing</button></div>
               <div>
                 <span className="pe-2 text-warning"><i class="fas fa-map-marker-alt"></i></span>
                 <span className="text-warning me-4 Marging_right">Mumbai </span>
@@ -35,7 +35,10 @@ function Available_page() {
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="fas fa-star"></i></span>
               </div>
-              <div className='status_availibily'><span>green</span> <span>Available</span></div>
+              <div className='status_availibily'><span><i class="fas fa-circle"></i></span> <span className='text-warning'>Available</span></div>
+            </div>
+            <div className='status_availibilty'>
+              <span><i class="fas fa-circle"></i></span>
             </div>
 
 
