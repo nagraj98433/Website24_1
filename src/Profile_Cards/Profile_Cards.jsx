@@ -38,7 +38,7 @@ function Profile_Cards(props) {
             <div>
               <div className='Btn_icons_Flex_container_Hire'>
                 <NavLink exact to="" className="nav-link">
-                  <a href="#" className="btn btn-primary CardBtn_style_hire"><span><i class="fas fa-lock"></i></span> HIRE NOW</a>
+                  <a href="#" className="btn btn-primary CardBtn_style_hire"><span><i class="fas fa-lock"></i></span> CALL NOW</a>
                 </NavLink>
               </div>
             </div>
@@ -111,7 +111,7 @@ function Profile_Cards(props) {
             <div>
               <div className='Btn_icons_Flex_container_Hire1 mt-3'>
                 <NavLink exact to="" className="nav-link">
-                  <a href="#" className="btn btn-primary CardBtn_style_hire"><span><i class="fas fa-lock"></i></span> HIRE NOW</a>
+                  <a href="#" className="btn btn-primary Available_CardBtn_style_hire"><span><i class="fas fa-lock"></i></span> CALL NOW</a>
                 </NavLink>
               </div>
             </div>
@@ -119,7 +119,7 @@ function Profile_Cards(props) {
             <div>
               <div className='Btn_icons_Flex_container_Hire1 mt-3'>
                 <NavLink exact to="" className="nav-link">
-                  <a href="#" className="btn btn-primary CardBtn_style_hire_schedule2"><span><i class="fas fa-lock"></i></span> SCHEDULE CALL</a>
+                  <a href="#" className="btn btn-primary Available_CardBtn_style_hire_schedule2"><span><i class="fas fa-lock"></i></span> SCHEDULE CALL</a>
                 </NavLink>
               </div>
             </div>

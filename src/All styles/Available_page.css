@@ -80,3 +80,56 @@
   color: #02bf2e;
   font-size: 16px;
 }
+.Highlight_condtion_handled_container {
+  margin-top: 8rem;
+  max-width: 75%;
+}
+.Available_List_conainer {
+  display: flex;
+}
+.Highlight_text,
+.Conditions_handled_text {
+  font-family: "poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+.Highlight_container ul li {
+  font-family: "poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.Available_CardBtn_style_hire {
+  background-color: #2ead56 !important;
+  color: #ffff !important;
+  font-size: 1.5rem !important;
+  font-family: "poppins", sans-serif !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+.Available_CardBtn_style_hire:hover {
+  color: #ffff !important;
+}
+.Available_CardBtn_style_hire:first-child:active {
+  color: #ffff !important;
+}
+.Available_CardBtn_style_hire_schedule {
+  background-color: #feab0c !important;
+  color: #ffff !important;
+  font-size: 1.5rem !important;
+  font-family: "poppins", sans-serif !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+.Available_CardBtn_style_hire_schedule:hover {
+  color: #ffff !important;
+}
+.Available_CardBtn_style_hire_schedule:first-child:active {
+  color: #ffff !important;
+}
+.Highlight_line hr {
+  border: none !important;
+  border-bottom: 2px solid #feab0c !important;
+  opacity: 1 !important;
+  width: 10rem;
+  margin-top: 0px;
+}
