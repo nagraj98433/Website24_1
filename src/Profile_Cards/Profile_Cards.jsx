@@ -22,9 +22,9 @@ function Profile_Cards(props) {
       <div className='Flex_container'>
         <div className='Img_container1'>
           <img src={props.profile_pc} className="card-img-top MaxHeight" alt="..." />
-          <div class="overlay_fav">
+          {/* <div class="overlay_fav">
             <div><span className="Myfavourite"><i class="fab fa-gratipay"></i></span></div>
-          </div>
+          </div> */}
         </div>
 
 
